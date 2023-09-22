@@ -12,6 +12,8 @@ Bash at the maximum. It should be easy to audit.
 
 ## Usage
 
+TODO: update with advice on locals and unset -f
+
 * Copy the contents of `prompt_command.sh` to your `$HOME/.bashrc` file.
 * Customise the `PS1` variable as you'd like the prompt to look. 
 * Extra functionality is available in `functions.sh`. To use this file,
