@@ -30,14 +30,14 @@ current_working_directory() {
 
 export current_working_directory
 
-aws_region() {
+print_env_var() {
 	# Print the current AWS region if it's set
-	if [[ -v AWS_REGION ]]; then
-		printf "%s" "$AWS_REGION"
+	if [[ -v $1 ]]; then
+		printf "%s" "$""$1"
 	fi
 }
 
-export aws_region
+export print_env_var
 
 space_if_not_empty() {
 	# Add a space in front of $1 if it's not empty, then print it
